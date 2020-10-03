@@ -1,0 +1,37 @@
+﻿.navbar {
+    background-color: lighten(@color-background, 15%) !important;
+
+    .appLogo {
+        color: @color-white;
+        white-space: normal;
+        text-align: center;
+        word-break: break-all;
+    }
+
+    .nav-item {
+        transition: background-color ease .35s, color ease .35s;
+        margin: 0 5px 0 5px;
+        a {
+            color: @color-white !important;
+        }
+        &:hover {
+            background-color: @color-primary;
+        }
+    }
+
+    .loginWidget {
+        ul {
+            display: inline-flex;
+            align-items: center;
+
+            .profilePic {
+                margin-right: 5px;
+            }
+        }
+
+        .avatarThumbnail {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

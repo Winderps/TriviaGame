@@ -1,0 +1,97 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+.navbar {
+  background-color: #285f8f !important;
+}
+.navbar .appLogo {
+  color: #FFF;
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.navbar .nav-item {
+  transition: background-color ease 0.35s, color ease 0.35s;
+  margin: 0 5px 0 5px;
+}
+.navbar .nav-item a {
+  color: #FFF !important;
+}
+.navbar .nav-item:hover {
+  background-color: #2892D7;
+}
+.navbar .loginWidget ul {
+  display: inline-flex;
+  align-items: center;
+}
+.navbar .loginWidget ul .profilePic {
+  margin-right: 5px;
+}
+.navbar .loginWidget .avatarThumbnail {
+  width: 32px;
+  height: 32px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #2892D7;
+  border-color: #000;
+  transition: background-color ease 0.5s;
+}
+.btn-primary:hover {
+  background-color: #41bd17;
+}
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #41bd17;
+  transition: color linear 0.35s;
+}
+a:hover {
+  color: #319011;
+}
+a:visited {
+  color: #985F99;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  background-color: #173753;
+  margin-bottom: 60px;
+}
+body .container main {
+  background-color: #DCFFFD;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  /* Vertically center the text there */
+}

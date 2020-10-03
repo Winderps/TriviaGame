@@ -1,0 +1,12 @@
+﻿@if (ViewData.ContainsKey("Message"))
+{
+    <div class="loginError">
+        @ViewData["Message"]
+    </div>
+}
+<form action="/Accounts/DoLogin" method="post">
+    <input type="text" placeholder="Username or Email" name="user" />
+    <input type="password" placeholder="Password" name="password" />
+    <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl">
+    <input type="submit" value="Login" />
+</form>

@@ -1,0 +1,12 @@
+﻿@model User
+<script type="text/javascript">
+    window.onload(function () {
+        setTimeout(function () {
+            window.location.href = 'https://example.com/';
+        }, 5000);
+    });
+</script>
+<div class="registrationThankYou">
+    Thank you for registering, @Model.DisplayName, you will be redirected to the homepage shortly.
+    <a href="/Home/Index">Click here if your browser does not redirect you.</a>
+</div>>
